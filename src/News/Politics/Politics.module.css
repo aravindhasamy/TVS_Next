@@ -1,0 +1,148 @@
+
+.container{
+    /* background-color: blue; */
+    /* height: 100%; */
+    height: 100vh;
+    background-color: aliceblue;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    
+    /* padding: 100px; */
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+
+
+
+.innerContainer{
+    /* overflow: scroll; */
+    height: 100vh;
+    /* padding: 100px; */
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    
+}
+
+.header{
+    height: 10%;
+    /* background-color: red; */
+    padding-left: 1em;
+    display: flex;
+    /* justify-content: center; */
+    /* height: 100vh */
+    align-items: flex-end;
+}
+
+.heading{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.newsContainer{
+    /* background-color: yellow; */
+    height: 90%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: row;
+    /* display: flex;
+    flex-direction: column; */
+    /* padding: 50px; */
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.leftContainer{
+    width: 60%;
+/* background-color: gray; */
+display: flex;
+flex-direction: row;
+overflow: scroll;
+overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.rightContainer{
+    width: 40%;
+background-color: aliceblue;
+padding-left: 15px;
+height: 100%;
+/* overflow: scroll; */
+overflow-y: scroll;
+    /* scrollbar-width: none; */
+}
+
+.card{
+    border-bottom: 0.5px solid lightgray;
+    cursor: pointer;
+    /* padding-left: 10px; */
+}
+
+.headline{
+    font-weight: bold;
+}
+.banner{
+    height: 500px;
+    width: 300px;
+    /* background-color: blue; */
+    /* margin-left: 1em; */
+    /* margin-top: 1.5em; */
+}
+.innerBanner{
+    height: 500px;
+    width: 300px;
+    cursor: pointer;
+}
+.smallBanner{
+    height: 50%;
+    width: 300px;
+    
+    margin-left: 2em;
+    margin-bottom: 100px;
+    
+}
+
+.innerSmallBanner{
+    height: 100px;
+    width: 300px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.author{
+    font-size: smaller;
+    color: gray;
+}
+
+@media only screen and (max-width: 1000px) {
+    .newsContainer {
+      /* background-color: lightblue; */
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .innerContainer{
+        overflow: scroll;
+        margin-left: 10px;
+    margin-right: 10px;
+        /* height: 500px; */
+    }
+    .leftContainer{
+        height: 500px;
+        width: 500px;
+        
+    }
+    .rightContainer{
+        width: 500px;
+    }
+
+    .container{
+        height: 375px;
+    width: 812px;
+    }
+  }
+
+  
